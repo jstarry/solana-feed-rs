@@ -27,6 +27,6 @@
     "webpack-notifier": "^1.7.0"
   },
   "dependencies": {
-    "@solana/web3.js": "file:../solana-web3.js"
+    "@solana/web3.js": "jstarry/solana-web3.js#bindgen-changes"
   }
 }
