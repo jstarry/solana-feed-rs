@@ -1,0 +1,32 @@
+{
+  "name": "example-messagefeed",
+  "version": "1.0.0",
+  "description": "Solana dApp example message feed app",
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "serve": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "@wasm-tool/wasm-pack-plugin": "^0.2.7",
+    "copy-webpack-plugin": "^4.5.3",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-template": "^6.2.0",
+    "node-sass": "^4.9.4",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.0",
+    "webpack-notifier": "^1.7.0"
+  },
+  "dependencies": {
+    "@solana/web3.js": "file:../solana-web3.js"
+  }
+}

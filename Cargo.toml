@@ -1,0 +1,9 @@
+[workspace]
+members = [
+"crates/contract",
+"crates/contract-data",
+"crates/solana-bindgen",
+"crates/solana-contract-types",
+"crates/solana-contract-utils",
+"crates/webapp"
+]
